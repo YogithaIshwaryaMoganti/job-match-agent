@@ -1,5 +1,8 @@
 # Job Match & Shortlist Agent
 
+[![CI](https://github.com/YogithaIshwaryaMoganti/job-match-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/YogithaIshwaryaMoganti/job-match-agent/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 Fetches real, live job postings from Greenhouse and Lever's public job-board APIs,
 scores each against a candidate profile, and drafts a cover-letter opening for the
 strongest matches. **It never submits an application to a real employer** — that's a
