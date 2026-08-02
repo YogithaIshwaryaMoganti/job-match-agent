@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Env / secrets
+.env
+.env.local
+
+# Dedup store (regenerated locally, not committed)
+backend/data/
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+npm-debug.log*
+
+# OS
+.DS_Store
+
+# Traces (local debug artifacts, not committed)
+backend/traces/
